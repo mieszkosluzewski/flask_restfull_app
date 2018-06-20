@@ -38,7 +38,7 @@ class Client(Base):
         :raises: ValidationError
         """
         if not IP_PATTERN.match(ip_address):
-            raise ValidationError('Provided IP address is not correct!')
+            raise ValidationError
         return ip_address
 
 
@@ -50,6 +50,7 @@ class Dataset(Base):
 
     id = Column(Integer, primary_key=True)
 
+    filename = Column(String(255))
     client_id = Column(Integer, ForeignKey('client.id'))
     client = relationship(Client)
     meta_data = Column(MutableDict.as_mutable(MetadataType))
