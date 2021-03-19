@@ -24,7 +24,7 @@ setup(
         'ipython-genutils==0.2.0',
         'itsdangerous==0.24',
         'jedi==0.12.0',
-        'Jinja2==2.10',
+        'Jinja2==2.11.3',
         'Mako==1.0.7',
         'MarkupSafe==1.0',
         'mimerender==0.6.0',
