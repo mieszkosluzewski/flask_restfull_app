@@ -36,7 +36,7 @@ setup(
         'prompt-toolkit==1.0.15',
         'ptyprocess==0.5.2',
         'py==1.5.3',
-        'Pygments==2.2.0',
+        'Pygments==2.7.4',
         'pytest==3.6.2',
         'python-dateutil==2.7.3',
         'python-editor==1.0.3',
