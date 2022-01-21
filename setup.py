@@ -20,7 +20,7 @@ setup(
         'Flask-Restless==0.17.0',
         'idna==2.7',
         'ipdb==0.11',
-        'ipython==6.4.0',
+        'ipython==7.16.3',
         'ipython-genutils==0.2.0',
         'itsdangerous==0.24',
         'jedi==0.12.0',
