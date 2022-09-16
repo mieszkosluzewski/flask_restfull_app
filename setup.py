@@ -25,7 +25,7 @@ setup(
         'itsdangerous==0.24',
         'jedi==0.12.0',
         'Jinja2==2.10',
-        'Mako==1.0.7',
+        'Mako==1.2.2',
         'MarkupSafe==1.0',
         'mimerender==0.6.0',
         'more-itertools==4.2.0',
